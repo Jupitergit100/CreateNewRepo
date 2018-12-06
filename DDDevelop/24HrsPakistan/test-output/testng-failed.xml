@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [24 Hour Pakistan]">
+  <listeners>
+    <listener class-name="TestReportsPackage.ExtenReportNG"/>
+    <listener class-name="TestReportsPackage.StartStopListener"/>
+    <listener class-name="TestReportsPackage.ITestListenerClass"/>
+  </listeners>
+  <test name="24HrPakistanWebsiteTest(failed)">
+    <classes>
+      <class name="PagesTestCasesPackage.HomePageTestCases">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verifyCityTextIndropdown"/>
+          <include name="verifyCountryTextIndropdown"/>
+        </methods>
+      </class> <!-- PagesTestCasesPackage.HomePageTestCases -->
+    </classes>
+  </test> <!-- 24HrPakistanWebsiteTest(failed) -->
+</suite> <!-- Failed suite [24 Hour Pakistan] -->

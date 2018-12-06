@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="11" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="24 Hour Pakistan" duration-ms="112550" started-at="2018-12-04T02:35:24Z" finished-at="2018-12-04T02:37:17Z">
+    <groups>
+    </groups>
+    <test name="24HrPakistanWebsiteTest" duration-ms="112550" started-at="2018-12-04T02:35:24Z" finished-at="2018-12-04T02:37:17Z">
+      <class name="PagesTestCasesPackage.HomePageTestCases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="setup" is-config="true" duration-ms="8337" started-at="2018-12-03T18:35:24Z" finished-at="2018-12-03T18:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAboutusMenuclick()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="verifyAboutusMenuclick" duration-ms="885" started-at="2018-12-03T18:35:32Z" finished-at="2018-12-03T18:35:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAboutusMenuclick -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="teardown" is-config="true" duration-ms="2082" started-at="2018-12-03T18:35:33Z" finished-at="2018-12-03T18:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="setup" is-config="true" duration-ms="8996" started-at="2018-12-03T18:35:35Z" finished-at="2018-12-03T18:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCallSupportText()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="verifyCallSupportText" duration-ms="67" started-at="2018-12-03T18:35:44Z" finished-at="2018-12-03T18:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCallSupportText -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="teardown" is-config="true" duration-ms="2075" started-at="2018-12-03T18:35:44Z" finished-at="2018-12-03T18:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="setup" is-config="true" duration-ms="7432" started-at="2018-12-03T18:35:46Z" finished-at="2018-12-03T18:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="verifyCityTextIndropdown()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="verifyCityTextIndropdown" duration-ms="3076" started-at="2018-12-03T18:35:54Z" finished-at="2018-12-03T18:35:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Karachi] but found [Karchi]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Karachi] but found [Karchi]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at PagesTestCasesPackage.HomePageTestCases.verifyCityTextIndropdown(HomePageTestCases.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCityTextIndropdown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="teardown" is-config="true" duration-ms="102" started-at="2018-12-03T18:35:57Z" finished-at="2018-12-03T18:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="setup" is-config="true" duration-ms="8075" started-at="2018-12-03T18:35:57Z" finished-at="2018-12-03T18:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="verifyCountryTextIndropdown()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="verifyCountryTextIndropdown" duration-ms="67" started-at="2018-12-03T18:36:06Z" finished-at="2018-12-03T18:36:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Pakistan] but found [Pakitan]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Pakistan] but found [Pakitan]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at PagesTestCasesPackage.HomePageTestCases.verifyCountryTextIndropdown(HomePageTestCases.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCountryTextIndropdown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="teardown" is-config="true" duration-ms="2322" started-at="2018-12-03T18:36:07Z" finished-at="2018-12-03T18:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="setup" is-config="true" duration-ms="6948" started-at="2018-12-03T18:36:09Z" finished-at="2018-12-03T18:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomeMenuclick()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="verifyHomeMenuclick" duration-ms="2362" started-at="2018-12-03T18:36:16Z" finished-at="2018-12-03T18:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeMenuclick -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="teardown" is-config="true" duration-ms="2324" started-at="2018-12-03T18:36:18Z" finished-at="2018-12-03T18:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="setup" is-config="true" duration-ms="6695" started-at="2018-12-03T18:36:21Z" finished-at="2018-12-03T18:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginlink()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="verifyLoginlink" duration-ms="77" started-at="2018-12-03T18:36:27Z" finished-at="2018-12-03T18:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="teardown" is-config="true" duration-ms="100" started-at="2018-12-03T18:36:27Z" finished-at="2018-12-03T18:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="setup" is-config="true" duration-ms="7218" started-at="2018-12-03T18:36:27Z" finished-at="2018-12-03T18:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogoImage()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="verifyLogoImage" duration-ms="77" started-at="2018-12-03T18:36:35Z" finished-at="2018-12-03T18:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoImage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="teardown" is-config="true" duration-ms="2109" started-at="2018-12-03T18:36:35Z" finished-at="2018-12-03T18:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="setup" is-config="true" duration-ms="6821" started-at="2018-12-03T18:36:37Z" finished-at="2018-12-03T18:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyRegisteringUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="verifyRegisteringUser" duration-ms="2187" started-at="2018-12-03T18:36:44Z" description="Enter the Signup data" data-provider="getSignupdata" finished-at="2018-12-03T18:36:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ghazal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[asnfklas@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3006754323]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3 kangoo rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="teardown" is-config="true" duration-ms="2323" started-at="2018-12-03T18:36:46Z" finished-at="2018-12-03T18:36:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="setup" is-config="true" duration-ms="6656" started-at="2018-12-03T18:36:49Z" finished-at="2018-12-03T18:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyRegisteringUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="verifyRegisteringUser" duration-ms="2610" started-at="2018-12-03T18:36:55Z" description="Enter the Signup data" data-provider="getSignupdata" finished-at="2018-12-03T18:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kahif]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mahmood]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kashif@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.008972345E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[500 lossbro ave ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="teardown" is-config="true" duration-ms="2076" started-at="2018-12-03T18:36:58Z" finished-at="2018-12-03T18:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="setup" is-config="true" duration-ms="7011" started-at="2018-12-03T18:37:00Z" finished-at="2018-12-03T18:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyRegisterlink()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="verifyRegisterlink" duration-ms="99" started-at="2018-12-03T18:37:07Z" finished-at="2018-12-03T18:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="teardown" is-config="true" duration-ms="282" started-at="2018-12-03T18:37:07Z" finished-at="2018-12-03T18:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="setup" is-config="true" duration-ms="6995" started-at="2018-12-03T18:37:07Z" finished-at="2018-12-03T18:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySupportNumber()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="verifySupportNumber" duration-ms="57" started-at="2018-12-03T18:37:14Z" finished-at="2018-12-03T18:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySupportNumber -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PagesTestCasesPackage.HomePageTestCases@ae45eb6]" name="teardown" is-config="true" duration-ms="2081" started-at="2018-12-03T18:37:14Z" finished-at="2018-12-03T18:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- PagesTestCasesPackage.HomePageTestCases -->
+    </test> <!-- 24HrPakistanWebsiteTest -->
+  </suite> <!-- 24 Hour Pakistan -->
+</testng-results>

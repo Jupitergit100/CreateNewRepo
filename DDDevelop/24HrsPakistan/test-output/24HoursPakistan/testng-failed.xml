@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [24HoursPakistan]">
+  <test name="24HrPakistanWebsiteTest(failed)">
+    <classes>
+      <class name="PagesTestCasesPackage.HomePageTestCases">
+        <methods>
+          <include name="verifyRegisterlink"/>
+          <include name="verifyLoginlink"/>
+          <include name="teardown"/>
+          <include name="verifyHomeMenuclick"/>
+          <include name="setup"/>
+          <include name="verifyCityTextIndropdown"/>
+          <include name="verifyLogoImage"/>
+          <include name="verifyRegisteringUser"/>
+          <include name="verifySupportNumber"/>
+          <include name="verifyCountryTextIndropdown"/>
+        </methods>
+      </class> <!-- PagesTestCasesPackage.HomePageTestCases -->
+    </classes>
+  </test> <!-- 24HrPakistanWebsiteTest(failed) -->
+</suite> <!-- Failed suite [24HoursPakistan] -->
