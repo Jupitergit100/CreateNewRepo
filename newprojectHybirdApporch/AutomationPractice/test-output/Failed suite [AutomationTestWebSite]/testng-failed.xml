@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="0" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [AutomationTestWebSite]]">
+  <test name="test_1(failed)(failed)">
+    <classes>
+      <class name="TestCasePackage.ContactUsPageTest">
+        <methods>
+          <include name="startup"/>
+          <include name="verifySendMessageTest" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCasePackage.ContactUsPageTest -->
+    </classes>
+  </test> <!-- test_1(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [AutomationTestWebSite]] -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+
+<suite name = "AutomationTestWebSite" verbose="1" parallel="false" thread-count="0">
+
+  <listeners>
+   
+      <listener class-name = "ExtentReportPackage.ExtentReportNG"/>
+  
+  </listeners>
+
+     <test name = "test_1">
+     
+          <classes>
+          
+                <class name = "TestCasePackage.ContactUsPageTest"/>
+          </classes>
+     </test>   
+     
+       
+     <test name = "test_2">
+           <classes>   
+            
+                <class name = "TestCasePackage.HomePageTestCases"/>
+                   
+          </classes>
+     </test>
+</suite>
